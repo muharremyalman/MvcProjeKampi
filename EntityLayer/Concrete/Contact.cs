@@ -10,7 +10,7 @@ namespace EntityLayer.Concrete
     public class Contact
     {
         [Key]
-        [StringLength(50)]
+       
         public int ContactID { get; set; }
 
         [StringLength(50)]
@@ -22,7 +22,6 @@ namespace EntityLayer.Concrete
         [StringLength(50)]
         public string Subject { get; set; }
 
-       
         public string Message { get; set; }
     }
 }
