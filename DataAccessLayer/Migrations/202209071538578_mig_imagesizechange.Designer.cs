@@ -7,18 +7,18 @@ namespace DataAccessLayer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class mig_writertitle_add : IMigrationMetadata
+    public sealed partial class mig_imagesizechange : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(mig_writertitle_add));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(mig_imagesizechange));
         
         string IMigrationMetadata.Id
         {
-            get { return "202209031906510_mig_writertitle_add"; }
+            get { return "202209071538578_mig_imagesizechange"; }
         }
         
         string IMigrationMetadata.Source
         {
-            get { return Resources.GetString("Source"); }
+            get { return null; }
         }
         
         string IMigrationMetadata.Target
