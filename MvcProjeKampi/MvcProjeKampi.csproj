@@ -150,6 +150,7 @@
     <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\WriterController.cs" />
+    <Compile Include="Controllers\İstatistikController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -167,6 +168,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Views\İstatistik\İstatistik View Ödev2\Odev2.PNG" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2568,6 +2570,7 @@
     <Content Include="Tema\AdminLTE-3.0.4\login-form-19\__MACOSX\login-form-19\scss\bootstrap\utilities\.__text.scss" />
     <Content Include="Tema\AdminLTE-3.0.4\login-form-19\__MACOSX\login-form-19\scss\bootstrap\utilities\.__visibility.scss" />
     <Content Include="Tema\AdminLTE-3.0.4\login-form-19\__MACOSX\login-form-19\scss\bootstrap\vendor\.__rfs.scss" />
+    <Content Include="Views\İstatistik\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
