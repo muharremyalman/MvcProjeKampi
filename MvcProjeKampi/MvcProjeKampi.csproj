@@ -150,6 +150,7 @@
     <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\WriterController.cs" />
+    <Compile Include="Controllers\WriterPanelController.cs" />
     <Compile Include="Controllers\İstatistikController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -2571,6 +2572,9 @@
     <Content Include="Tema\AdminLTE-3.0.4\login-form-19\__MACOSX\login-form-19\scss\bootstrap\utilities\.__visibility.scss" />
     <Content Include="Tema\AdminLTE-3.0.4\login-form-19\__MACOSX\login-form-19\scss\bootstrap\vendor\.__rfs.scss" />
     <Content Include="Views\İstatistik\Index.cshtml" />
+    <Content Include="Views\Shared\_WriterLayout.cshtml" />
+    <Content Include="Views\WriterPanel\WriterProfile.cshtml" />
+    <Content Include="Views\WriterPanel\MyHeading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
