@@ -27,6 +27,7 @@ namespace DataAccessLayer.Concrete.Repositories
 
         public void Insert(Writer p)
         {
+            var test = 0;
             throw new NotImplementedException();
         }
 

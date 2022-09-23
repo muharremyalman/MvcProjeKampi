@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using System;
@@ -13,20 +14,28 @@ namespace MvcProjeKampi.Controllers
     {
         HeadingManager hm = new HeadingManager(new EfHeadingDal());
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
+        Context c = new Context();
+        
+
         public ActionResult WriterProfile()
         {
             return View();
         }
 
-        public ActionResult MyHeading()
+        public ActionResult MyHeading(string p)
         {
-            //id = 4;
-            var values = hm.GetListByWriter();
+            p = (string)Session["WriterMail"];
+            var writeridinfo = c.Writers.Where(x => x.WriterMail == p).Select
+                (y => y.WriterID).FirstOrDefault();
+        
+            var values = hm.GetListByWriter(writeridinfo);
             return View(values);
         }
         [HttpGet]
         public ActionResult NewHeading()
         {
+         
+           
             List<SelectListItem> valuecategory = (from x in cm.GetList()
                                                   select new SelectListItem
                                                   {
@@ -39,8 +48,12 @@ namespace MvcProjeKampi.Controllers
         [HttpPost]
         public ActionResult NewHeading(Heading p)
         {
+            string writermailinfo = (string)Session["WriterMail"];
+            var writeridinfo = c.Writers.Where(x => x.WriterMail == writermailinfo).Select
+                 (y => y.WriterID).FirstOrDefault();
+          
             p.HeadingDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-            p.WriterID = 4;
+            p.WriterID = writeridinfo;
             p.HeadingStatus = true;
             hm.HeadingAdd(p);
             return RedirectToAction("MyHeading");
@@ -75,7 +88,14 @@ namespace MvcProjeKampi.Controllers
             hm.HeadingDelete(HeadingValue);
             return RedirectToAction("MyHeading");
         }
+        public ActionResult AllHeading()
+        {
+            var headings = hm.GetList();
+            return View(headings);
+        }
     }
+   
+   
 }
 
 /* <customErrors mode="On">
