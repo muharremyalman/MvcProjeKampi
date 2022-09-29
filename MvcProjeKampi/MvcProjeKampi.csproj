@@ -230,15 +230,6 @@
     <Content Include="Tema\AdminLTE-3.0.4\web\images\DB Schema - Begin.jpg" />
     <Content Include="Tema\AdminLTE-3.0.4\web\images\error.JPG" />
     <Content Include="Tema\AdminLTE-3.0.4\web\images\exp.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g1.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g2.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g3.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g4.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g5.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g6.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g7.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g8.jpg" />
-    <Content Include="Tema\AdminLTE-3.0.4\web\images\g9.jpg" />
     <Content Include="Tema\AdminLTE-3.0.4\web\images\Heading.png" />
     <Content Include="Tema\AdminLTE-3.0.4\web\images\index - Admin.JPG" />
     <Content Include="Tema\AdminLTE-3.0.4\web\images\loader.gif" />
@@ -2912,6 +2903,7 @@
     <Content Include="Tema\AdminLTE-3.0.4\web\webfonts\fa-solid-900.ttf" />
     <Content Include="Tema\AdminLTE-3.0.4\web\webfonts\fa-solid-900.woff" />
     <Content Include="Tema\AdminLTE-3.0.4\web\webfonts\fa-solid-900.woff2" />
+    <Content Include="Views\Content\GetAllContent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
