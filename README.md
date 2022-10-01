@@ -17,9 +17,9 @@ ASP.NET MVC is an online interactive dictionary development project. (Example Ek
 
 <p><b>Admin Yetkilendirme Sayfası<b/><p/> 
  <img src="https://github.com/muharremyalman/MvcProjeKampi/blob/master/MvcProjeKampi/ScreenShots/Admin Yetkilendirme Sayfası.JPG" />
-  <p>Admin Yazılar Sayfası<p/>
+  <p>Admin Yazıları Sayfası<p/>
   <img src="https://github.com/muharremyalman/MvcProjeKampi/blob/master/MvcProjeKampi/ScreenShots/AdminYazılarSayfası.JPG" />
-  <p>Admin Başlıklar Sayfası<p/>
+  <p>Admin Başlıkları Sayfası<p/>
   <img src="https://github.com/muharremyalman/MvcProjeKampi/blob/master/MvcProjeKampi/ScreenShots/Başlıklar Admin.png" />
   <p>Error Sayfası<p/>
   <img src="https://github.com/muharremyalman/MvcProjeKampi/blob/master/MvcProjeKampi/ScreenShots/Error Sayfası.JPG" />
